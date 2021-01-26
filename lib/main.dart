@@ -38,7 +38,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _index = 0;
 
-  String API_KEY = "AIzaSyBpCtH7APob86qudtVtRNTyTKVQCr2qV-Q";
+  String API_KEY = "AIzaSyDmWkyo2MbQ5Aa-i0bgKdCjpOWJTWDmNMw";
 
   GoogleMapController mapController;
 
