@@ -31,7 +31,7 @@ Widget textField({
         ),
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(
-            color: Colors.blue[300],
+            color: Colors.green[300],
             width: 2,
           ),
         ),

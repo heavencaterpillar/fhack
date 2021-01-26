@@ -90,7 +90,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
         _destinationAddress = _currentAddress;
       });
-      print(p[0].addressLine);
     } catch (e) {
       print(e);
     }
@@ -198,8 +197,9 @@ class _MyHomePageState extends State<MyHomePage> {
       points: polylineCoordinates,
       width: 3,
     );
-
-    polylines[id] = polyline;
+    setState(() {
+      polylines[id] = polyline;
+    });
   }
 
 
@@ -216,6 +216,7 @@ class _MyHomePageState extends State<MyHomePage> {
               GoogleMap(
                 onMapCreated: (GoogleMapController controller) {
                   mapController = controller;
+                  _destinationAddress == '' ? null : _BuildPath();
                 },
                 initialCameraPosition: CameraPosition(
                   target: LatLng(50.48, 30.5),
