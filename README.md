@@ -1,16 +1,17 @@
-# fhack_UI
+# ARigator (AR Navigator)
 
-A new Flutter project.
+Студентський тестовий проект на INT20H
 
-## Getting Started
+Для розробки додатку використовувались наступні ресурси: 
+- Flutter + Google API (Pathfinding and Maps)
+- Unity 
+- Blender, GIMP
 
-This project is a starting point for a Flutter application.
+# Installation 
 
-A few resources to get you started if this is your first Flutter project:
+...
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Для коректоної роботи програми необхідно дозволити використання GPS.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Після встановлення apk-додатку необхідно зайти в телефоні у налаштування, там знайти інформації про додатки та дозволити використання GPS. 
+Тобто: Settings -> Apps & notifications -> App info -> ARigator -> Permissions  -> GPS
